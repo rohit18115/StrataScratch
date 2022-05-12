@@ -1,0 +1,1 @@
+select distinct(friend) from facebook_reactions where  reaction='like' and post_id IS NOT NULL
